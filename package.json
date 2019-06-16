@@ -5,15 +5,22 @@
   "main": "index.js",
   "scripts": {
     "start": "sergey",
-    "dev": "sergey --watch"
+    "css": "node-sass styles/_imports/styles.scss -o styles",
+    "css:watch": "npm run css && node-sass styles/_imports/styles.scss -wo styles",
+    "dev": "sergey --watch",
+    "dev:with-css": "concurrently --kill-others \"npm run css:watch\" \"npm run dev\""
+
+    
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "^4.12.0",
     "nunjucks": "^3.2.0",
     "sergey": "0.0.7"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.8.3",
+    "concurrently": "^4.1.0"
   }
 }
