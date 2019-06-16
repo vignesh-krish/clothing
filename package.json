@@ -1,0 +1,19 @@
+{
+  "name": "clothing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sergey",
+    "dev": "sergey --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nunjucks": "^3.2.0",
+    "sergey": "0.0.7"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
+}

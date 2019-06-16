@@ -1,0 +1,55 @@
+@media screen and (min-width:969px){
+    .wrapper{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 32px; }
+.material-icons.md-48 { font-size: 48px; }
+.fixed-header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background:#fff;
+    z-index: 1;
+}
+.search-div{
+    padding: 0.5rem;
+    position: relative;
+}
+.search-div input{
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    background: #e8e5e8;
+    font-size: 12px;
+    padding: 6px 12px;
+}
+.search-div i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    margin-top: -12px;
+    color: #720e7d;
+    /* margin-right: 10px; */
+}
+.nav-link{
+    color: #720e7d;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #b32fc2
+}
+.main-nav .nav-link i, .main-nav .nav-link span  {
+    display: inline-block;
+    vertical-align: middle;
+}
+.banner-carousel{
+    margin-top:46px;
+}
+.banner-carousel .carousel-inner{
+    height:300px;
+}
