@@ -20,7 +20,7 @@
     "sergey": "0.0.7"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^1.0.2",
     "concurrently": "^4.1.0"
   }
 }
